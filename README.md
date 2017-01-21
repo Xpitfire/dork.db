@@ -13,7 +13,7 @@ docker run -p 27017:27017 --name dorkdb -d xpitfire/dork.db
 docker start dorkdb
 ```
 
-* You can now use the following connection string for local hosting: 
+* You can now use the following connection string for local testing: 
 ```
 mongodb://localhost:27017/local
 ```
