@@ -7,6 +7,12 @@
 ```
 docker run -p 27017:27017 --name dorkdb -d xpitfire/dork.db
 ```
+
+* To start the docker container execute:
+```
+docker start dorkdb
+```
+
 * You can now use the following connection string for local hosting: 
 ```
 mongodb://localhost:27017/local
