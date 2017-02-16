@@ -20,7 +20,7 @@ mongodb://localhost:27017/local
 
 ## Deployment
 
-* Deployed on DigitalOcean
+* Deployed on [DigitalOcean](https://cloud.digitalocean.com/droplets/39982201/graphs?i=d428e7)
 * Access server via SSH as root user:
 ```
 ssh root@178.62.66.198
