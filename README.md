@@ -17,3 +17,11 @@ docker start dorkdb
 ```
 mongodb://localhost:27017/local
 ```
+
+## Deployment
+
+* Deployed on DigitalOcean
+* Access server via SSH as root user:
+```
+ssh root@178.62.66.198
+```
