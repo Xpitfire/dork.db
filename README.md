@@ -25,3 +25,5 @@ mongodb://localhost:27017/local
 ```
 ssh root@178.62.66.198
 ```
+
+* Request password via email: dinu.marius-constantin@hotmail.com
