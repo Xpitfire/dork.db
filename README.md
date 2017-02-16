@@ -32,7 +32,7 @@ docker start dorkdb
 mongodb://localhost:27017/local
 ```
 
-## Deployment
+## Remote Deployment Access
 
 * Deployed on [DigitalOcean](https://cloud.digitalocean.com/droplets/39982201/graphs?i=d428e7)
 * Access server via SSH as root user:
@@ -41,3 +41,14 @@ ssh root@178.62.66.198
 ```
 
 * Request password via email: dinu.marius-constantin@hotmail.com
+* Use the connection string for remote testing:
+```
+mongodb://178.62.66.198:27017/local
+```
+
+* Restore previously dumpped data back to the database:
+```
+mongorestore -d local --host 178.62.66.198 --port 27017 Dump/EXPORT/local
+```
+
+
