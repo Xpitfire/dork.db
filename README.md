@@ -3,6 +3,20 @@
 
 * Download docker for [Windows](https://docs.docker.com/docker-for-windows/) or [Linux](https://docs.docker.com/engine/installation/linux/ubuntu/) on the official docker site and follow the installation instructions
 * Request collaborator access for the official Docker Hub repository [xpitfire/dork.db](https://hub.docker.com/r/xpitfire/dork.db) via slack if not already available
+* Clone the repository:
+```
+git clone https://github.com/Xpitfire/dork.db.git
+```
+
+* Build the repository:
+```
+cd dork.db
+
+# Format: docker build --tag/-t <user-name>/<repository> .
+# Example:
+docker build --tag xpitfire/dork.db .
+```
+
 * Run a terminal or PowerShell instance and execute the following command: 
 ```
 docker run -p 27017:27017 --name dorkdb -d xpitfire/dork.db
